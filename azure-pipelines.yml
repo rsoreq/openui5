@@ -20,4 +20,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 - task: WhiteSource@20
-  inputs: 
+  inputs:
+    projectName: AZDO_openui5
+  
