@@ -9,5 +9,5 @@ trigger:
   
 - task: WhiteSource@20
   inputs:
-    projectName: "AZDO_openui5"
-	
+    projectName: 'AZDO_openui5'
+    configuration: npm.resolveDependencies=true
